@@ -1,14 +1,29 @@
 import type { NextApiRequest, NextApiResponse } from 'next'
 import questoes from '../bancoDeQuestoes'
-import QuestaoModel from '@/model/questao'
+import RespostaModel from "../../../model/resposta"
 
-type Data = {}
+type Questao = {
+  id: number
+  enunciado: string
+  respostas: {
+    valor: string
+    certa: boolean
+    revelada: boolean
+  }[]
+  acertou: boolean
+}
 
 export default function handler(
   req: NextApiRequest,
-  res: NextApiResponse<Data>
+  res: NextApiResponse<Questao>
 ) {
   const id = req.query.id === undefined ? -1 : +req.query.id
 
-  res.status(200).json(questoes[0].toObject())
+  const questao = questoes.filter(questao => questao.id === id)
+
+  if(questao.length === 1) {
+    res.status(200).json(questao[0].toObject())
+  } else {
+    res.status(204).end()
+  }
 }

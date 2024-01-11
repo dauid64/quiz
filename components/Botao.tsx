@@ -17,7 +17,7 @@ export default function Botao(props: BotaoProps) {
         )
     }
     return props.href ? (
-        <div className={styles.container_botao}>
+        <div className={styles.containerBotao}>
             <Link href={props.href}>{renderizarBotao()}</Link>
         </div>
     ) : renderizarBotao()

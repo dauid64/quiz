@@ -7,7 +7,7 @@
 ![Bitbucket open pull requests](https://img.shields.io/bitbucket/pr-raw/dauid64/quiz?style=for-the-badge)
 
 <p align="center">
-    <img src="https://github.com/dauid64/porta_premiada/assets/94979678/f216fb7a-589c-405a-9c72-2bde1866327c" alt="Exemplo imagem">
+    <img src="https://github.com/dauid64/porta_premiada/assets/94979678/f216fb7a-589c-405a-9c72-2bde1866327c" alt="Next.js logo">
 </p>
 
 

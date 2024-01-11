@@ -36,6 +36,10 @@ Para usar o Quiz, siga estas etapas:
 
 ![Página inicial](public/readme/pagina_inicial.png)
 
+* Ao responder ele revela qual era a resposta certa
+
+![Revelando Resposta](public/readme/revelando_resposta.png)
+
 * Ao terminar as perguntas o sistema retornará suas estatísticas
 
 ![Página resultado](public/readme/resultado.png)

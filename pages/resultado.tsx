@@ -3,7 +3,7 @@ import styles from '@/styles/Resultado.module.css'
 import Botao from '@/components/Botao'
 import { useRouter } from "next/router"
 
-export default function resultaado() {
+export default function Resultaado() {
     const router = useRouter()
 
     const total = +router.query.total

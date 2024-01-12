@@ -13,6 +13,10 @@
 
 > Projeto realizado para colocar em prática os meus conhecimentos em Next.js, criando um sistema de perguntas e respostas.
 
+## 📍 Deploy
+
+Link do projeto: https://quiz-xi-gules.vercel.app/
+
 ## 💻 Pré-requisitos
 
 Antes de começar, verifique se você atendeu aos seguintes requisitos:
@@ -22,6 +26,8 @@ Antes de começar, verifique se você atendeu aos seguintes requisitos:
 ## 🚀 Instalando Quiz
 
 Para rodar o Quiz é necessário instalar dependências de bibliotecas, siga então as seguintes etapas:
+
+* crie um arquivo no diretório raiz do projeto chamada .env.local e coloque a seguinte variável NEXT_PUBLIC_BASE_URL="http://localhost:3000/api". Com isso basta executar os comandos a seguir.
 
 ```
 npm i

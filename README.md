@@ -15,7 +15,7 @@
 
 ## 📍 Deploy
 
-Link do projeto: https://quiz-xi-gules.vercel.app/
+Link do projeto: https://quiz-gamma-eight.vercel.app/
 
 ## 💻 Pré-requisitos
 

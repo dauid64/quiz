@@ -27,7 +27,7 @@ Antes de começar, verifique se você atendeu aos seguintes requisitos:
 
 Para rodar o Quiz é necessário instalar dependências de bibliotecas, siga então as seguintes etapas:
 
-* crie um arquivo no diretório raiz do projeto chamada .env.local e coloque a seguinte variável NEXT_PUBLIC_BASE_URL="http://localhost:3000/api". Com isso basta executar os comandos a seguir.
+* crie um arquivo no diretório raiz do projeto chamada .env.local e coloque a seguinte variável NEXT_PUBLIC_BASE_URL="http://localhost:3000". Com isso basta executar os comandos a seguir.
 
 ```
 npm i
